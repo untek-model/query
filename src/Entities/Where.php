@@ -2,7 +2,10 @@
 
 namespace Untek\Model\Query\Entities;
 
+use Untek\Core\Code\Helpers\DeprecateHelper;
 use Untek\Model\Query\Enums\OperatorEnum;
+
+DeprecateHelper::hardThrow();
 
 class Where
 {

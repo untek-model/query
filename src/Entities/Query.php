@@ -3,9 +3,12 @@
 namespace Untek\Model\Query\Entities;
 
 use Untek\Core\Arr\Helpers\ArrayHelper;
+use Untek\Core\Code\Helpers\DeprecateHelper;
 use Untek\Model\Query\Enums\OperatorEnum;
 
 // todo: refactor
+
+//DeprecateHelper::hardThrow();
 
 class Query
 {
